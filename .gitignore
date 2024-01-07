@@ -13,3 +13,5 @@
 *.uvopt
 *.lock
 *.json
+
+.obsidian/

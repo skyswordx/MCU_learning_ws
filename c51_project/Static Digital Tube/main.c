@@ -20,8 +20,8 @@ unsigned char NixieTable[] = {
     0x00, // 空
 };
 
-void NixieTube(unsigned char Location, unsigned char Number=17)
-{
+void NixieTube(unsigned char Location, unsigned char Number){
+    //注意了，C语言的函数没有默认值，C++才有
     switch (Location)
     {
         case 1:
@@ -85,7 +85,7 @@ void NixieTube(unsigned char Location, unsigned char Number=17)
 
 void main(void)
 {
-    NixieTube(1, 1);
+    NixieTube(1, 2);
     
     while (1)
     {
