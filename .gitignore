@@ -1,0 +1,15 @@
+
+*.uvproj
+*.m51
+*.lst
+*.__i
+*.log
+*.hex
+*.htm
+*.A51
+*.11405
+*.obj
+*.lnp
+*.uvopt
+*.lock
+*.json
