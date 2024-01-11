@@ -1,5 +1,11 @@
 #include <REGX52.H>
-
+//###########################################################
+//##
+//##                         把数码管的值编成数组
+//##
+//###########################################################
+//可以将数码管的显示图案对应的十六进制数
+//编成一个数组来方便地控制其显示
 unsigned char NixieTable[] = {
     0x3f, // 0 
     0x06, // 1 
@@ -20,10 +26,13 @@ unsigned char NixieTable[] = {
     0x00, // 空
 };
 
+
+
+
 void NixieTube(unsigned char Location, unsigned char Number){
     //注意了，C语言的函数没有默认值，C++才有
-    switch (Location)
-    {
+    
+    switch (Location){//用switch循环设置公共端，来选定数码管的哪一位亮
         case 1:
             P2_4 = 1;
             P2_3 = 1;
@@ -79,6 +88,8 @@ void NixieTube(unsigned char Location, unsigned char Number){
             
             break;
     }
+
+    //把数码管那一位的显示图案对应的16进制数编成一个数组来方便的控制
     P0 =NixieTable[Number];
 }
 
@@ -87,9 +98,7 @@ void main(void)
 {
     NixieTube(1, 2);
     
-    while (1)
-    {
-
+    while (1){
     }
    
 }

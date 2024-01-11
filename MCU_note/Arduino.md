@@ -1,9 +1,26 @@
 # 遇到的问题和解决资料
-[avrdude: ser_open(): can‘t open device “\\.\COM以及串口监视器没反应](https://blog.csdn.net/qq_48637874/article/details/119658786)
+问题
+	[avrdude: ser_open(): can‘t open device “\\.\COM以及串口监视器没反应](https://blog.csdn.net/qq_48637874/article/details/119658786)
 
-[df编程参考手册](https://wiki.dfrobot.com.cn/Arduino%E7%BC%96%E7%A8%8B%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C)
+手册
+1. [df编程参考手册](https://wiki.dfrobot.com.cn/Arduino%E7%BC%96%E7%A8%8B%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C)
+2. [arduino官方编程手册](https://www.arduino.cc/reference/en/)
 
-[arduino官方编程手册](https://www.arduino.cc/reference/en/)
+论坛
+1. [Arduino中文论坛, DF创客社区 (dfrobot.com.cn)](https://mc.dfrobot.com.cn/forum-92-1.html)
+2. [Arduino - 极客工坊 - Powered by Discuz! (geek-workshop.com)](https://www.geek-workshop.com/forum-49-1.html)
+
+教程
+1. [df](https://mc.dfrobot.com.cn/featured/arduino)
+2. [资源](https://mc.dfrobot.com.cn/thread-1249-1-1.html)
+
+小车配件
+1. [1838红外遥控](https://blog.csdn.net/qq_17351161/article/details/107437382?csdn_share_tail=%7B%22type%22%3A%22blog%22%2C%22rType%22%3A%22article%22%2C%22rId%22%3A%22107437382%22%2C%22source%22%3A%222301_79069845%22%7D&fromshare=blogdetail&shareId=35&sharetype=hot)
+2. [超声波测距](http://t.csdnimg.cn/QQBmo)
+3. [SG90舵机](http://t.csdnimg.cn/TFwCG)
+4. [循迹](http://t.csdnimg.cn/421qY)
+5. [uno资料](https://blog.csdn.net/m0_37738838/article/details/85045066)
+6. 
 
 
 # 跟教程做笔记系列
