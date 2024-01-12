@@ -1,7 +1,7 @@
 这里是我学习MCU的一个仓库
 我主要是参考b站江科大的51单片机教程和stm32的单片机教程进行学习
 # 目前进度
-参见[MCU](./MCU_note/MCU)这个md文件
+参见[MCU](./MCU_note/MCU.md)这个md文件
 
 推荐把本仓库fork下来，然后使用Obsidian结合Vscode进行观看
 # 关于计划
